@@ -7,6 +7,8 @@ This repository contains the official implementation for the paper: "A Disease-C
 
 Our work introduces **RenalCLIP**, a vision-language foundation model specifically designed for the comprehensive assessment of renal masses from CT imaging. By leveraging a novel, two-stage knowledge-enhancement pre-training strategy on a large-scale, multi-center dataset, RenalCLIP learns a deeply contextualized representation of kidney cancer.
 
+![alt text](./_readme/overview.png)
+
 ## Model Zoo & Checkpoints
 
 All official pre-trained model weights for both the **Image Encoder** and the **Text Encoder (LLM2Vec)** are publicly available on our Hugging Face repository.
@@ -44,8 +46,12 @@ Our model takes single-kidney 3D volumes as input. The preprocessing pipeline in
     ```
 * **ROI Cropping:** Based on the generated segmentation masks, we then perform ROI cropping and other offline preprocessing. The implementation details can be found in the Jupyter notebooks within the `preprocessing/` directory, such as `CropOneKidney.ipynb` and `CropOfflinePreprocess.ipynb`.
 
+![alt text](./_readme/crop.png)
+
 ### 2. Report Preprocessing
 The original Chinese radiology reports are first parsed by an LLM to separate descriptions pertaining to the left and right kidneys, and then translated into English. Details can be found in our paper's **Methods section**.
+
+![alt text](./_readme/report_preprocess.png)
 
 ## Pre-training RenalCLIP
 The pre-training process consists of two main stages. 
