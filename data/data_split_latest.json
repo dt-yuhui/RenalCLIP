@@ -1,0 +1,149 @@
+{
+    "pretrain_data": {
+        "train_set": [
+            
+        ],
+        "valid_set": [
+           
+        ]
+    },
+    "downstream_data_internal": {
+        "train_set": [
+            
+        ],
+        "test_set": [
+            
+        ],
+        "train_set_proportion_by_seed": {
+            "0.05": {
+                "seed_42": [
+                    
+                ],
+                "seed_2024": [
+                    
+                ],
+                "seed_2025": [
+                    
+                ],
+                "seed_2026": [
+                    
+                ],
+                "seed_2027": [
+                   
+                ]
+            },
+            "0.1": {
+                "seed_42": [
+                    
+                ],
+                "seed_2024": [
+                   
+                ],
+                "seed_2025": [
+                    
+                ],
+                "seed_2026": [
+                    
+                ],
+                "seed_2027": [
+                    
+                ]
+            },
+            "0.2": {
+                "seed_42": [
+                    
+                ],
+                "seed_2024": [
+                    
+                ],
+                "seed_2025": [
+                    
+                ],
+                "seed_2026": [
+                    
+                ],
+                "seed_2027": [
+                    
+                ]
+            },
+            "0.4": {
+                "seed_42": [
+                    
+                ],
+                "seed_2024": [
+                    
+                ],
+                "seed_2025": [
+                   
+                ],
+                "seed_2026": [
+                    
+                ],
+                "seed_2027": [
+                    
+                ]
+            },
+            "0.8": {
+                "seed_42": [
+                    
+                ],
+                "seed_2024": [
+                    
+                ],
+                "seed_2025": [
+                    
+                ],
+                "seed_2026": [
+                    
+                ],
+                "seed_2027": [
+                   
+                ]
+            }
+        }
+    },
+    "downstream_data_external": {
+        "厦门": {
+            "train_set": [],
+            "valid_set": [],
+            "test_set": [
+                
+            ]
+        },
+        "山东": {
+            "train_set": [],
+            "valid_set": [],
+            "test_set": [
+               
+            ]
+        },
+        "张掖": {
+            "train_set": [],
+            "valid_set": [],
+            "test_set": [
+                
+            ]
+        },
+        "瑞金": {
+            "train_set": [],
+            "valid_set": [],
+            "test_set": [
+                
+            ]
+        },
+        "连云": {
+            "train_set": [],
+            "valid_set": [],
+            "test_set": [
+                
+            ]
+        },
+        "TCIA": {
+            "train_set": [],
+            "valid_set": [],
+            "test_set": [
+               
+            ]
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "templates": [
+        "A soft tissue mass that is ____ is visible in the kidney.",
+        "A density shadow that is ____ is observed in the kidney.",
+        "An area that is ____ is visualized at the pole of the kidney.",
+        "A mass-like shadow that is ____ is noted in the kidney.",
+        "An occupying lesion that is ____ is seen in the kidney.",
+        "An abnormality that is ____ is detected in the kidney.",
+        "A region of interest that is ____ is found in the kidney.",
+        "A structural irregularity that is ____ is visible in the kidney.",
+        "A mixed-density lesion that is ____ is apparent in the kidney.",
+        "A nodule that is ____ is observed in the kidney.",
+        "A shadow-like lesion that is ____ is identified in the kidney.",
+        "A well-defined region that is ____ is noted in the kidney.",
+        "An abnormal soft tissue that is ____ is detected in the kidney.",
+        "A feature that is ____ is recognized in the kidney.",
+        "A density lesion that is ____ is revealed in the kidney.",
+        "The kidney shows a soft tissue mass that is ____.",
+        "The kidney reveals a density shadow that is ____.",
+        "The kidney demonstrates a lesion that is ____.",
+        "The kidney presents an occupying abnormality that is ____.",
+        "The kidney displays a structural irregularity that is ____."
+    ],
+    "attributes": {
+        "BMC": {
+            "0": [
+                "benign, described as a mass containing fatty soft tissue, consistent with an angiomyolipoma",
+                "benign, presenting as a round cystic lesion with a clear boundary and no enhancement after contrast",
+                "benign, a finding of a nodule with uniform density, smooth borders, and no significant enhancement",
+                "benign, a complex cyst with fine septa showing only mild, non-suspicious enhancement",
+                "benign, a lesion showing mild and uniform progressive enhancement after contrast, without washout"
+            ],
+            "1": [
+                "malignant, showing early significant uneven enhancement during the corticomedullary phase, and reduced density in the nephrographic phase",
+                "malignant, presenting as a mass-like abnormal density shadow which is uneven and contains a central necrotic area",
+                "malignant, a cystic-solid occupying lesion with thickened, irregular walls and enhancing solid nodules",
+                "malignant, described as a solid tumor showing rapid enhancement and subsequent washout of contrast",
+                "malignant, an irregular mass with unclear boundaries and heterogeneous density"
+            ]
+        },
+        "IC": {
+            "0": [
+                "non-invasive, as the lesion is confined by the renal capsule and has not breached it",
+                "non-invasive, with the perirenal fat spaces appearing clear and uninvolved",
+                "non-invasive, showing no signs of involvement of the renal pelvis or calyces",
+                "non-invasive, with no evidence of tumor thrombus in the renal vein or inferior vena cava",
+                "non-invasive, presenting as a well-circumscribed lesion with sharp, distinct borders"
+            ],
+            "1": [
+                "invasive, as the tumor demonstrates extrarenal extension into the perirenal fat",
+                "invasive, as the tumor appears to have breached the renal capsule",
+                "invasive, showing clear infiltration of the renal pelvis or collecting system",
+                "invasive, with a filling defect consistent with a tumor thrombus in the renal vein or IVC",
+                "invasive, presenting as an infiltrative mass with poorly defined or blurred borders"
+            ]
+        }
+    }
+}
