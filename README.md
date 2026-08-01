@@ -1,11 +1,21 @@
 # RenalCLIP: A Disease-Centric Vision-Language Foundation Model for Precision Oncology in Kidney Cancer
 
-[![Paper](https://img.shields.io/badge/arXiv-2508.16569-b31b1b.svg)](https://arxiv.org/abs/2508.16569)
+[![Nature Communications](https://img.shields.io/badge/Nature%20Communications-Published-000000.svg)](https://www.nature.com/articles/s41467-026-74175-w)
+[![arXiv](https://img.shields.io/badge/arXiv-2508.16569-b31b1b.svg)](https://arxiv.org/abs/2508.16569)
 [![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow)](https://huggingface.co/taoyh/RenalCLIP)
 
-This repository contains the official implementation for the paper: "A Disease-Centric Vision-Language Foundation Model for Precision Oncology in Kidney Cancer".
+🎉 **RenalCLIP has been published in [Nature Communications](https://www.nature.com/articles/s41467-026-74175-w)!**
+
+This repository contains the official implementation of RenalCLIP, presented in our paper, "[A disease-centric vision-language foundation model for precision oncology in kidney cancer](https://www.nature.com/articles/s41467-026-74175-w)", published in *Nature Communications*.
 
 Our work introduces **RenalCLIP**, a vision-language foundation model specifically designed for the comprehensive assessment of renal masses from CT imaging. By leveraging a novel, two-stage knowledge-enhancement pre-training strategy on a large-scale, multi-center dataset, RenalCLIP learns a deeply contextualized representation of kidney cancer.
+
+## News
+
+* **2026-07-27:** The version of record was published in *Nature Communications*.
+* **2026-06-08:** The article was published online.
+* **2026-06-01:** The paper was accepted by *Nature Communications*.
+* **2025-08-22:** The preprint was released on [arXiv](https://arxiv.org/abs/2508.16569).
 
 ![alt text](./_readme/overview.png)
 
@@ -99,13 +109,20 @@ For zero-shot and retrieval tasks, we pre-compute the image and text embeddings 
 
 ## Citation
 
-Our paper is available on arXiv. If you find our work useful in your research, please consider citing:
+If you find RenalCLIP useful in your research, please cite our paper:
 
 ```bibtex
-@article{Tao2025RenalCLIP,
-  title={A Disease-Centric Vision-Language Foundation Model for Precision Oncology in Kidney Cancer},
-  author={Yuhui Tao and Zhongwei Zhao and Zilong Wang and Xufang Luo and Feng Chen and et al.},
-  journal={arXiv preprint},
-  year={2025}
+@article{Tao2026RenalCLIP,
+  title   = {A disease-centric vision-language foundation model for precision oncology in kidney cancer},
+  author  = {Tao, Yuhui and Zhao, Zhongwei and Wang, Zilong and Luo, Xufang and Chen, Feng and Wang, Kang and Wu, Chuanfu and Zhang, Xue and Zhang, Shaoting and Yao, Jiaxi and Jin, Xingwei and Jiang, Xinyang and Yang, Yifan and Li, Dongsheng and Qiu, Lili and Shao, Zhiqiang and Guo, Jianming and Yu, Nengwang and Xiong, Ying and Wang, Shuo},
+  journal = {Nature Communications},
+  volume  = {17},
+  pages   = {7313},
+  year    = {2026},
+  doi     = {10.1038/s41467-026-74175-w},
+  url     = {https://doi.org/10.1038/s41467-026-74175-w}
 }
 ```
+
+* **Paper:** [Nature Communications](https://www.nature.com/articles/s41467-026-74175-w)
+* **Preprint:** [arXiv:2508.16569](https://arxiv.org/abs/2508.16569)
