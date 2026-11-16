@@ -10,11 +10,15 @@ This repository contains the official implementation of RenalCLIP, presented in 
 
 Our work introduces **RenalCLIP**, a vision-language foundation model specifically designed for the comprehensive assessment of renal masses from CT imaging. By leveraging a novel, two-stage knowledge-enhancement pre-training strategy on a large-scale, multi-center dataset, RenalCLIP learns a deeply contextualized representation of kidney cancer.
 
-## Source Data update ? 16 November 2026
+## Source Data update - 16 November 2026
 
 An [updated Source Data workbook](corrections/2026-11-16-source-data/source_data_corrected_2026-11-16.xlsx?raw=true) is available. It aligns the Figure 3b operating-point metrics with the reported Youden thresholds, corrects a Nomogram confidence interval, adds the omitted RFS event indicators, and restores full-precision risk scores. See the [change log and verification details](corrections/2026-11-16-source-data/README.md).
 
-This is an author-supplied repository update; it does not replace a journal-issued correction. We are preparing the corresponding materials for the Nature Communications editorial office.
+This is an author-supplied repository update; it does not replace a journal-issued correction. We will contact the publisher.
+
+## Figure 5 and Supplementary Table 25 update - 16 November 2026
+
+The [corrected Figure 5 and Supplementary Information](corrections/2026-11-16-figures-si/README.md) are available. Figure 5a now uses the correct image-to-text recall axis and plot geometry. Supplementary Table 25 lists endpoint-specific median cutoffs and eligible sample sizes, with full-precision values provided in CSV format. These are author-supplied updates. We will contact the publisher.
 
 ## News
 

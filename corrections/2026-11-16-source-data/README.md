@@ -1,4 +1,4 @@
-# Source Data update — 16 November 2026
+# Source Data update - 16 November 2026
 
 This directory provides an author-corrected Source Data workbook for [A disease-centric vision-language foundation model for precision oncology in kidney cancer](https://doi.org/10.1038/s41467-026-74175-w), *Nature Communications* **17**, 7313 (2026).
 
@@ -32,4 +32,4 @@ Supporting files:
 
 ## Publication status
 
-This is an author-supplied repository update, not a journal-issued correction or a replacement of the journal-hosted publication record. We are preparing the corresponding materials for the Nature Communications editorial office. This update covers the four Source Data items described above; the verification statements are limited to the checks specified here. Any subsequent revised figures or Supplementary Information will be separately identified and versioned.
+This is an author-supplied repository update, not a journal-issued correction or a replacement of the journal-hosted publication record. We will contact the publisher. This update covers the four Source Data items described above; the verification statements are limited to the checks specified here. The corrected Figure 5 and Supplementary Table 25 are available in the [separate figure/SI update](../2026-11-16-figures-si/README.md).
