@@ -10,15 +10,13 @@ This repository contains the official implementation of RenalCLIP, presented in 
 
 Our work introduces **RenalCLIP**, a vision-language foundation model specifically designed for the comprehensive assessment of renal masses from CT imaging. By leveraging a novel, two-stage knowledge-enhancement pre-training strategy on a large-scale, multi-center dataset, RenalCLIP learns a deeply contextualized representation of kidney cancer.
 
-## Source Data update - 16 November 2026
+## Corrections - 16 November 2026
 
-An [updated Source Data workbook](corrections/2026-11-16-source-data/source_data_corrected_2026-11-16.xlsx?raw=true) is available. It aligns the Figure 3b operating-point metrics with the reported Youden thresholds, corrects a Nomogram confidence interval, adds the omitted RFS event indicators, and restores full-precision risk scores. See the [change log and verification details](corrections/2026-11-16-source-data/README.md).
+- [Corrected Source Data (Excel)](2026-11-16-correction/Source_Data_corrected.xlsx?raw=true): aligns Figure 3b metrics with the reported Youden thresholds, corrects the Nomogram confidence interval, adds RFS event indicators, and restores full-precision risk scores.
+- [Corrected Figure 5 (PDF)](2026-11-16-correction/Figure5_corrected.pdf?raw=true): corrects the image-to-text recall axis and plot geometry in panel a.
+- [Corrected Supplementary Table 25 (PDF)](2026-11-16-correction/Table_S25_corrected.pdf?raw=true): reports endpoint-specific median risk-score thresholds and eligible sample sizes, including the corrected Xiamen/Merlin/RFS cutoff.
 
-This is an author-supplied repository update; it does not replace a journal-issued correction. We will contact the publisher.
-
-## Figure 5 and Supplementary Table 25 update - 16 November 2026
-
-The [corrected Figure 5 and Supplementary Information](corrections/2026-11-16-figures-si/README.md) are available. Figure 5a now uses the correct image-to-text recall axis and plot geometry. Supplementary Table 25 lists endpoint-specific median cutoffs and eligible sample sizes, with full-precision values provided in CSV format. These are author-supplied updates. We will contact the publisher.
+These are author-supplied updates. We will contact the publisher. They do not replace a journal-issued correction.
 
 ## News
 
