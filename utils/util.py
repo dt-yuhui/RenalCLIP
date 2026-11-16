@@ -661,7 +661,7 @@ def get_metrics(logits_dict, labels_dict, task_info, detailed=False):
             pr_auc = auc(recalls, precisions)
             
             TN = cm[0, 0]
-            FP = cm[1, 0]
+            FP = cm[0, 1]
             specificity = TN / (TN + FP) if TN + FP != 0 else 0
             
             precision = precision_score(labels, pred_labels, zero_division=0)
