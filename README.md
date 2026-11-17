@@ -16,6 +16,8 @@ Our work introduces **RenalCLIP**, a vision-language foundation model specifical
 - [Corrected Figure 5 (PDF)](2026-11-16-correction/Figure5_corrected.pdf?raw=true): corrects the image-to-text recall axis and plot geometry in panel a.
 - [Corrected Supplementary Table 25 (PDF)](2026-11-16-correction/Table_S25_corrected.pdf?raw=true): reports endpoint-specific median risk-score thresholds and eligible sample sizes, including the corrected Xiamen/Merlin/RFS cutoff.
 
+We thank Alberto Zambudio-Munuera and colleagues for identifying the discrepancy between the main-text operating-point metrics and the Figure 3b Source Data in their review, [The Translation Gap in Artificial Intelligence-Based Renal Mass Characterization: A Narrative Review](https://www.mdpi.com/2072-6694/18/22/3637). Their careful examination prompted the broader consistency checks and corrections listed above.
+
 These are author-supplied updates. We will contact the publisher. They do not replace a journal-issued correction.
 
 ## News
